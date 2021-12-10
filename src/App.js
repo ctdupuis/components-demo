@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Class from './Class';
 import Functional from './Functional';
@@ -6,10 +5,11 @@ import Functional from './Functional';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* Insert heading here */}
+      <section className="App-header">
         <Class />
         <Functional />
-      </header>
+      </section>
     </div>
   );
 }

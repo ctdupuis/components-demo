@@ -6,11 +6,11 @@ export default class Class extends Component {
     }
 
     handleChange = event => {
-        this.setState({ [event.target.name]: event.target.value })
+        this.setState({ [event.target.name]: event.target.value });
     }
 
     handleClick = event => {
-        this.setState({ text: "" })
+        this.setState({ text: "" });
     }
 
     render() {
